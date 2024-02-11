@@ -1,26 +1,24 @@
 ---
-title: "my website"
+title: "my math blog"
 format: html
 editor: visual
 ---
 
-## Quarto
+## Introduction to Mathematics and Logic
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+### Square root of 2 is not a rational number
+We call a number rational if it can be written as $\frac{m}{n}$ and m,n are integers.
+Assume for contradiction that $\sqrt{2}=\frac{m}{n}$, and m is not divisible by n.
+$\sqrt{2}=\frac{m}{n}$
+$2=\frac{m^2}{n^2}$
+$2*n^2=m^2$
+Therefore, $m^2$ is even.
+(add lemma)
+By our Lemma, m is even.
+$2*n^2=m^2$
+$2*n^2=m*m$
+$2*n^2=(2k)(2k)$
+$2*n^2=4k^2$
+$n^2=2k^2$
+Therefore, n is even and they have a common factor.
+Therefore, there is a contradiction, and $\sqrt{2}$ is irrational.
