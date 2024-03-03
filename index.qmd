@@ -6,6 +6,24 @@ editor: visual
 
 ## Introduction to Mathematics and Logic
 
+#### Lemma: if $x^2$ is even then $x$ is even.
+
+Proof: Proof by contrapositive
+
+We will prove that if $x$ is odd then $x^2$ is odd.
+
+By definition of an odd number, $x=2k+1$.
+
+Therefore,
+
+$x^2=(2k+1)^2$
+
+$x^2=4k^2+4k+1$
+
+$x^2=2(2k^2+2k)+1$
+
+Therefore $x^2$ is odd.
+
 ### Square root of 2 is not a rational number
 
 We call a number rational if it can be written as $\frac{m}{n}$ and m,n are integers.
@@ -20,8 +38,6 @@ $2*n^2=m^2$
 
 Therefore, $m^2$ is even.
 
-(add lemma)
-
 By our Lemma, m is even.
 
 $2*n^2=m^2$
@@ -30,7 +46,9 @@ $2*n^2=m*m$
 
 $2*n^2=(2k)(2k)$
 
-$2*n^2=4k^2$ $n^2=2k^2$
+$2*n^2=4k^2$
+
+$n^2=2k^2$
 
 Therefore, n is even and they have a common factor.
 
