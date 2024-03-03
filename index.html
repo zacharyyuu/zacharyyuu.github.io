@@ -64,8 +64,6 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction-to-mathematics-and-logic" class="level2">
 <h2 class="anchored" data-anchor-id="introduction-to-mathematics-and-logic">Introduction to Mathematics and Logic</h2>
-<section id="square-root-of-2-is-not-a-rational-number" class="level3">
-<h3 class="anchored" data-anchor-id="square-root-of-2-is-not-a-rational-number">Square root of 2 is not a rational number</h3>
 <section id="lemma-if-x2-is-even-then-x-is-even." class="level4">
 <h4 class="anchored" data-anchor-id="lemma-if-x2-is-even-then-x-is-even.">Lemma: if <span class="math inline">\(x^2\)</span> is even then <span class="math inline">\(x\)</span> is even.</h4>
 <p>Proof: Proof by contrapositive</p>
@@ -76,6 +74,9 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="math inline">\(x^2=4k^2+4k+1\)</span></p>
 <p><span class="math inline">\(x^2=2(2k^2+2k)+1\)</span></p>
 <p>Therefore <span class="math inline">\(x^2\)</span> is odd.</p>
+</section>
+<section id="square-root-of-2-is-not-a-rational-number" class="level3">
+<h3 class="anchored" data-anchor-id="square-root-of-2-is-not-a-rational-number">Square root of 2 is not a rational number</h3>
 <p>We call a number rational if it can be written as <span class="math inline">\(\frac{m}{n}\)</span> and m,n are integers.</p>
 <p>Assume for contradiction that <span class="math inline">\(\sqrt{2}=\frac{m}{n}\)</span>, and m is not divisible by n.</p>
 <p><span class="math inline">\(\sqrt{2}=\frac{m}{n}\)</span></p>
@@ -91,6 +92,21 @@ ul.task-list li input[type="checkbox"] {
 <p>Therefore, n is even and they have a common factor.</p>
 <p>Therefore, there is a contradiction, and <span class="math inline">\(\sqrt{2}\)</span> is irrational.</p>
 </section>
+</section>
+<section id="mathematical-induction" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-induction">Mathematical Induction</h2>
+<p>Two things we need for induction:</p>
+<p>1.Base Case</p>
+<p>2.Inductive Step</p>
+<p>With this method we can prove things about all countable numbers 1, 2, 3…</p>
+<section id="an-example-123...n-fracnn12" class="level3">
+<h3 class="anchored" data-anchor-id="an-example-123...n-fracnn12">An example: <span class="math inline">\(1+2+3+...+n = \frac{n(n+1)}{2}\)</span></h3>
+<p>Base case: <span class="math inline">\(n=1\)</span></p>
+<p><span class="math inline">\(\frac{1(1+1)}{2} = 1\)</span></p>
+<p>Our inductive hypothesis: <span class="math inline">\(1+2+3+...+k = \frac{k(k+1)}{2}\)</span></p>
+<p>We want to show that <span class="math inline">\(1+2+3+...+k+k+1 = \frac{(k+1)(k+1+1)}{2}\)</span></p>
+<p><span class="math inline">\(1+2+3+...+k+k+1 = \frac{k(k+1)}{2}+k+1 = \frac{k(k+1)}{2}+\frac{2(k+1)}{2}\)</span> <span class="math inline">\(= \frac{k(k+1)+2(k+1)}{2} = \frac{(k+1)(k+2)}{2} = \frac{(k+1)(k+1+1)}{2}\)</span></p>
+<p>We can conclude that <span class="math inline">\(1+2+3+...+n = \frac{n(n+1)}{2}\)</span></p>
 </section>
 </section>
 

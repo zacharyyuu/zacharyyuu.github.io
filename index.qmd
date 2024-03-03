@@ -53,3 +53,28 @@ $n^2=2k^2$
 Therefore, n is even and they have a common factor.
 
 Therefore, there is a contradiction, and $\sqrt{2}$ is irrational.
+
+## Mathematical Induction
+
+Two things we need for induction:
+
+1.Base Case
+
+2.Inductive Step
+
+With this method we can prove things about all countable numbers 1, 2, 3...
+
+### An example: $1+2+3+...+n = \frac{n(n+1)}{2}$
+
+Base case: $n=1$
+
+$\frac{1(1+1)}{2} = 1$
+
+Our inductive hypothesis: $1+2+3+...+k = \frac{k(k+1)}{2}$
+
+We want to show that $1+2+3+...+k+k+1 = \frac{(k+1)(k+1+1)}{2}$
+
+$1+2+3+...+k+k+1 = \frac{k(k+1)}{2}+k+1 = \frac{k(k+1)}{2}+\frac{2(k+1)}{2}$ $= \frac{k(k+1)+2(k+1)}{2} = \frac{(k+1)(k+2)}{2} = \frac{(k+1)(k+1+1)}{2}$
+
+We can conclude that $1+2+3+...+n = \frac{n(n+1)}{2}$
+
