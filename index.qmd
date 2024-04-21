@@ -6,6 +6,14 @@ editor: visual
 
 ## Introduction to Mathematics and Logic
 
+Assuming that one thing is true, you can make statements about something else being true.
+
+**Example: If I am a man, then I am a human.**
+
+Contrapositive:
+
+Logic says that if you have some statement called p that implies q, then this is equivalent to not q implies not p. This might be helpful in certain proofs such as like below.
+
 #### Lemma: if $x^2$ is even then $x$ is even.
 
 Proof: Proof by contrapositive
@@ -77,4 +85,3 @@ We want to show that $1+2+3+...+k+k+1 = \frac{(k+1)(k+1+1)}{2}$
 $1+2+3+...+k+k+1 = \frac{k(k+1)}{2}+k+1 = \frac{k(k+1)}{2}+\frac{2(k+1)}{2}$ $= \frac{k(k+1)+2(k+1)}{2} = \frac{(k+1)(k+2)}{2} = \frac{(k+1)(k+1+1)}{2}$
 
 We can conclude that $1+2+3+...+n = \frac{n(n+1)}{2}$
-
