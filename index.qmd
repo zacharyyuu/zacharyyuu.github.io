@@ -85,3 +85,17 @@ We want to show that $1+2+3+...+k+k+1 = \frac{(k+1)(k+1+1)}{2}$
 $1+2+3+...+k+k+1 = \frac{k(k+1)}{2}+k+1 = \frac{k(k+1)}{2}+\frac{2(k+1)}{2}$ $= \frac{k(k+1)+2(k+1)}{2} = \frac{(k+1)(k+2)}{2} = \frac{(k+1)(k+1+1)}{2}$
 
 We can conclude that $1+2+3+...+n = \frac{n(n+1)}{2}$
+
+##Sequences and Convergence
+
+Sequence: A sequence, $f(n)$, is a list of numbers indexed by $n$
+
+Example: 2,4,8,16,32,64
+
+$f(n)=2^n$
+
+Example: $1,-1/2,1/3,-1/4,1/5$
+
+$f(n)=\frac{(-1)^{n+1}}{n}$
+
+Convergence: We say a sequence $f(n)$ converges to x if $\forall \varepsilon > 0, \exists N$ such that $n>N \implies \mid f(n)-x\mid<\varepsilon$
