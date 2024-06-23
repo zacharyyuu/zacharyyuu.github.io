@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+![](images/clipboard-3915940091.png)
+
 ## Introduction to Mathematics and Logic
 
 Assuming that one thing is true, you can make statements about something else being true.
