@@ -88,7 +88,7 @@ $1+2+3+...+k+k+1 = \frac{k(k+1)}{2}+k+1 = \frac{k(k+1)}{2}+\frac{2(k+1)}{2}$ $= 
 
 We can conclude that $1+2+3+...+n = \frac{n(n+1)}{2}$
 
-##Sequences and Convergence
+## Sequences and Convergence
 
 Sequence: A sequence, $f(n)$, is a list of numbers indexed by $n$
 
